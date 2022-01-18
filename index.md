@@ -3,7 +3,7 @@ title: rossmoyne robotics club
 description: description of robotics club
 ---
 
-<link href="/js/changetitle.js" rel="stylesheet">
+<link href="/js/changetitle.js" rel="stylesheet" defer>
 
 # Welcome to the rossmoyne robotics club!
 ---
