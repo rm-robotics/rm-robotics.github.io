@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+---
+title: rossmoyne robotics club
+---
 
-You can use the [editor on GitHub](https://github.com/rm-robotics/rm-robotics.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Welcome to the rossmoyne robotics club!
+---
+## About us
+#### We have robotics club every Monday or Wednesday afterschool in the T6 classroom. We participate in a lego soccer competition every year.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Teacher: Ms Gan
+---
+# 2022 year 7 picnic robotics club events
 
-### Markdown
+## command and score:
+#### A robot and a ball are first placed randomly on a soccer table. The player needs to input commands into the robot so that the robot can kick the ball into the goal.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rm-robotics/rm-robotics.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### the player starts by pressing the centre button. Then the player can hold down the forward, left, back and right buttons for any amount of seconds to input commands, then they can press the centre button again to make the robot execute the commands one by one.
