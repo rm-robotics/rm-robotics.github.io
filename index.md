@@ -1,5 +1,6 @@
 ---
 title: rossmoyne robotics club
+description: description of robotics club
 ---
 
 # Welcome to the rossmoyne robotics club!
