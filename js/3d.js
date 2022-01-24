@@ -4,7 +4,9 @@ const camera = new THREE.PerspectiveCamera(75, canvas.width / canvas.height, 0.1
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(canvas.width, canvas.height);
-canvas.appendChild(renderer.domElement);
+let domElem = renderer.domElement;
+document.body.appendChild(domElem);
+domElem.style.border = "2px solid black";
 const geometry = new THREE.BoxGeometry();
 const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 const cube = new THREE.Mesh(geometry, material);
