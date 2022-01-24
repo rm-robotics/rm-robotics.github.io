@@ -23,4 +23,5 @@ description: description of robotics club
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <canvas id="3dcanvas" style="width:50vw; height:50vw; border: 2px solid black"></canvas>
+<div id="container"></div>
 <script defer src="/js/3d.js"></script>

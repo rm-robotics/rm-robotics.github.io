@@ -5,14 +5,15 @@ const camera = new THREE.PerspectiveCamera(75, canvas.width / canvas.height, 0.1
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(canvas.width, canvas.height);
 let domElem = renderer.domElement;
-document.body.appendChild(domElem);
+document.getElementById("container").appendChild(domElem);
 domElem.style.border = "2px solid black";
 document.body.removeChild(canvas);
-const geometry = new THREE.BoxGeometry();
-const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+const geometry = new THREE.DodecahedronGeometry(9, 3);
+const material = new THREE.MeshDepthMaterial();
+const light = new THREE.AmbientLight(0x404040);
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
-
+scene.add(light);
 camera.position.z = 5;
 
 function animate() {
