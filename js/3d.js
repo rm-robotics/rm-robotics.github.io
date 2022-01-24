@@ -7,6 +7,7 @@ renderer.setSize(canvas.width, canvas.height);
 let domElem = renderer.domElement;
 document.body.appendChild(domElem);
 domElem.style.border = "2px solid black";
+document.body.removeChild(canvas);
 const geometry = new THREE.BoxGeometry();
 const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 const cube = new THREE.Mesh(geometry, material);
