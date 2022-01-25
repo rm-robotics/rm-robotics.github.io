@@ -2,7 +2,6 @@
 title: rossmoyne robotics club
 description: description of robotics club
 ---
-@import "jekyll-theme-slate";
 <script defer src="/js/changetitle.js"></script>
 
 # Welcome to the rossmoyne robotics club!
