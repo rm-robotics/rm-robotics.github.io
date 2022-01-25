@@ -10,7 +10,7 @@ renderer.setSize(canvas.width, canvas.height);
 let domElem = renderer.domElement;
 document.getElementById("container").appendChild(domElem);
 domElem.style.border = "2px solid black";
-document.body.removeChild(canvas);
+canvas.remove();
 const geometry = new THREE.IcosahedronGeometry(10);
 const material = new THREE.MeshNormalMaterial();
 const light = new THREE.AmbientLight(0x404040);
