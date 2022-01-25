@@ -2,7 +2,7 @@
 title: rossmoyne robotics club
 description: description of robotics club
 ---
-
+@import "jekyll-theme-slate";
 <script defer src="/js/changetitle.js"></script>
 
 # Welcome to the rossmoyne robotics club!
@@ -19,9 +19,8 @@ description: description of robotics club
 
 #### the player starts by pressing the centre button. Then the player can hold down the forward, left, back and right buttons for any amount of seconds to input commands, then they can press the centre button again to make the robot execute the commands one by one.
 ---
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha512-dLxUelApnYxpLt6K2iomGngnHO83iUvZytA3YjDUCjT0HDOHKXnVYdf3hU4JjM8uEhxf9nD1/ey98U3t2vZ0qQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+## since you spent all that time reading that wall of text above, here, have a spinning icosahedron as your reward
 
 <canvas id="3dcanvas" style="width:50vw; height:50vw; border: 2px solid black"></canvas>
 <div id="container"></div>
-<script defer src="/js/3d.js"></script>
+<script defer src="/js/3d.js" type="module" style="width:50vw; height:50vw; border: 2px solid black"></script>
