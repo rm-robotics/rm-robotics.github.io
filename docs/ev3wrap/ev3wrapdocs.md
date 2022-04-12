@@ -1,5 +1,5 @@
 ---
-title: "Ev3Wrap-stable"
+title: "Ev3Wrap-stable-docs"
 description: "page for ev3wrap library documentation"
 has_children: true
 tag: "Ev3Wrap"
