@@ -1,7 +1,8 @@
 ---
-title: Ev3Wrap
-description: page for ev3wrap library documentation
+title: "Ev3Wrap-stable"
+description: "page for ev3wrap library documentation"
 has_children: true
+tag: "Ev3Wrap"
 ---
 
 # Ev3Wrap library docs

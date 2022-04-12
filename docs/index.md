@@ -1,7 +1,8 @@
 ---
-title: rossmoyne robotics club
-description: description of robotics club
+title: "rossmoyne robotics club"
+description: "description of robotics club"
 nav_order: -1
+tag: "Hello!"
 ---
 <script defer src="/js/changetitle.js"></script>
 
