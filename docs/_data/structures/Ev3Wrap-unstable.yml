@@ -7,6 +7,19 @@ FileSystem:
       - "ev3wrap"
       - "unstable"
     children:
+    - quickstart:
+      tag: "quickstart"
+      child_folder_reqs:
+        - "quickStartTutorials"
+      children:
+      - irseekerTutorial:
+        tag: "irseekerTutorial"
+      - MotorTutorial:
+        tag: "Motortutorial"
+      - SpeedingUpBindingTutorial:
+        tag: "SpeedingUpBindingTutorial"
+      - MotorPairTutorial:
+        tag: "MotorPairTutorial"
     - documentation:
       tag: "documentation"
       child_folder_reqs:
