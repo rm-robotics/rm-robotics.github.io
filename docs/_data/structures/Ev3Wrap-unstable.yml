@@ -9,17 +9,16 @@ FileSystem:
     children:
     - quickstart:
       tag: "quickstart"
-      child_folder_reqs:
-        - "quickStartTutorials"
       children:
       - irseekerTutorial:
-        tag: "irseekerTutorial"
+        tag: "IrseekerTutorial"
       - MotorTutorial:
-        tag: "Motortutorial"
+        tag: "MotorTutorial"
       - SpeedingUpBindingTutorial:
         tag: "SpeedingUpBindingTutorial"
       - MotorPairTutorial:
         tag: "MotorPairTutorial"
+
     - documentation:
       tag: "documentation"
       child_folder_reqs:
