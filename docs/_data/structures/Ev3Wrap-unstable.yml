@@ -1,6 +1,6 @@
 name: "Ev3Wrap-unstable"
 FileSystem:
-  - Ev3Wrap-unstable:
+  - Ev3Wrap:
     no_page: true
     display_text: "unstable"
     child_folder_reqs:
@@ -20,3 +20,19 @@ FileSystem:
         tag: "ColorSensor"
       - CompassSensor:
         tag: "CompassSensor"
+      - GyroSensor:
+        tag: "GyroSensor"
+      - IrSeekerSensor:
+        tag: "IrSeekerSensor"
+      - Motor:
+        tag: "Motor"
+      - MotorPair:
+        tag: "MotorPair"
+      - Omni:
+        tag: "Omni"
+      - TouchSensor:
+        tag: "TouchSensor"
+      - UltrasonicSensor:
+        tag: "UltrasonicSensor"
+      - Utilities:
+        tag: "Utilities"

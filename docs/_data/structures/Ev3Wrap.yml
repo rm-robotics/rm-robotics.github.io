@@ -21,3 +21,19 @@ FileSystem:
         tag: "ColorSensor"
       - CompassSensor:
         tag: "CompassSensor"
+      - GyroSensor:
+        tag: "GyroSensor"
+      - IrSeekerSensor:
+        tag: "IrSeekerSensor"
+      - Motor:
+        tag: "Motor"
+      - MotorPair:
+        tag: "MotorPair"
+      - Omni:
+        tag: "Omni"
+      - TouchSensor:
+        tag: "TouchSensor"
+      - UltrasonicSensor:
+        tag: "UltrasonicSensor"
+      - Utilities:
+        tag: "Utilities"
