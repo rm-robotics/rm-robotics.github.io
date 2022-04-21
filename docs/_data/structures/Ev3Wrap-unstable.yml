@@ -1,0 +1,22 @@
+name: "Ev3Wrap-unstable"
+FileSystem:
+  - Ev3Wrap-unstable:
+    no_page: true
+    display_text: "unstable"
+    child_folder_reqs:
+      - "ev3wrap"
+      - "unstable"
+    children:
+    - documentation:
+      tag: "documentation"
+      child_folder_reqs:
+        - "documentation"
+      children:
+      - Blockable:
+        tag: "Blockable"
+      - Button:
+        tag: "Button"
+      - ColorSensor:
+        tag: "ColorSensor"
+      - CompassSensor:
+        tag: "CompassSensor"

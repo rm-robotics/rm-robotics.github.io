@@ -1,0 +1,23 @@
+name: "Ev3Wrap"
+FileSystem:
+  - Ev3Wrap:
+    no_page: true
+    display_text: "stable"
+    child_folder_reqs:
+      - "ev3wrap"
+      - "master"
+    children:
+    - documentation:
+      tag: "documentation"
+      child_folder_reqs:
+        - "documentation"
+        - "master"
+      children:
+      - Blockable:
+        tag: "Blockable"
+      - Button:
+        tag: "Button"
+      - ColorSensor:
+        tag: "ColorSensor"
+      - CompassSensor:
+        tag: "CompassSensor"
