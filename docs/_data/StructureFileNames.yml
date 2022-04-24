@@ -2,5 +2,5 @@ MAIN:
   - Ev3Wrap:
     display_text: "Ev3Wrap library documentation"
     children:
-    - Ev3Wrap
-    - Ev3Wrap-unstable
+    - master
+    - unstable
