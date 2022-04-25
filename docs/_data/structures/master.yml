@@ -1,17 +1,28 @@
-name: "Ev3Wrap"
+extra_unneeded_data_for_testing: "Hello!"
 FileSystem:
   - Ev3Wrap:
     no_page: true
-    display_text: "stable"
+    display_text: "unstable"
     child_folder_reqs:
       - "ev3wrap"
-      - "master"
+      - "unstable"
     children:
+    - quickstart:
+      tag: "quickstart"
+      children:
+      - irseekerTutorial:
+        tag: "IrseekerTutorial"
+      - MotorTutorial:
+        tag: "MotorTutorial"
+      - SpeedingUpBindingTutorial:
+        tag: "SpeedingUpBindingTutorial"
+      - MotorPairTutorial:
+        tag: "MotorPairTutorial"
+
     - documentation:
       tag: "documentation"
       child_folder_reqs:
         - "documentation"
-        - "master"
       children:
       - Blockable:
         tag: "Blockable"
