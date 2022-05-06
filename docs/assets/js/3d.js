@@ -1,5 +1,5 @@
-import * as THREE from 'https://cdn.skypack.dev/three';
-import { OrbitControls } from "https://cdn.skypack.dev/three/examples/jsm/controls/OrbitControls.js";
+import * as THREE from 'three';
+import { OrbitControls } from "orbitalControls";
 const canvas = document.getElementById("3dcanvas");
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, canvas.width / canvas.height, 0.1, 1000);
@@ -9,7 +9,8 @@ renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(canvas.width, canvas.height);
 let domElem = renderer.domElement;
 document.getElementById("container").appendChild(domElem);
-domElem.style.border = "2px solid black";
+//domElem.style.border = "2px solid black";
+domElem.style = canvas.style;
 canvas.remove();
 const geometry = new THREE.IcosahedronGeometry(10);
 const material = new THREE.MeshNormalMaterial();
