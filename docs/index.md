@@ -19,7 +19,8 @@ tag: "Hello!"
   {
     "imports": {
       "three": "https://unpkg.com/three@0.140.0/build/three.module.js",
-      "orbitalControls": "https://unpkg.com/three@0.140.0/examples/jsm/controls/OrbitControls.js"
+      "orbitalControls": "https://unpkg.com/three@0.140.0/examples/jsm/controls/OrbitControls.js",
+      "objLoader": "https://unpkg.com/three@0.140.0/examples/jsm/loaders/OBJLoader"
     }
   }
 </script>
