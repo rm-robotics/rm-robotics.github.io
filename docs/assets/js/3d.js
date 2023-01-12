@@ -20,33 +20,6 @@ const light = new THREE.AmbientLight(0x404040);
 light.position.set(10, 0, 0).normalize();
 const cube = new THREE.Mesh(geometry, material);
 // load the secret amogus
-const loader = new OBJLoader();
-loader.load(
-    // resource URL
-    '/assets/models/amogus_easter_egg.obj',
-    // called when resource is loaded
-    function(object) {
-        object.traverse(function(child) {
-            if (child instanceof THREE.Mesh) {
-                child.material = material;
-            }
-        });
-        scene.add(object);
-
-    },
-    // called when loading is in progresses
-    function(xhr) {
-
-        console.log((xhr.loaded / xhr.total * 100) + '% loaded');
-
-    },
-    // called when loading has errors
-    function(error) {
-
-        console.log('An error happened');
-
-    }
-);
 scene.add(cube);
 scene.add(light);
 //camera.position.y = 20;
