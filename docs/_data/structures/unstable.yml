@@ -52,6 +52,10 @@ FileSystem:
         tag: "UltrasonicSensor"
       - Utilities:
         tag: "Utilities"
+      - Vector:
+        tag: "Vector"
+      - BluetoothSocket:
+        tag: "bluetooth-socket"
     - contributing:
       tag: "contribute"
       child_folder_reqs:
@@ -64,8 +68,12 @@ FileSystem:
         children:
         - CMakeSpecifics:
           tag: "CMakeSpecifics"
+        - CMakeExamples:
+          tag: "CMakeExamples"
       - branchNamingRules:
         tag: "branchNamingRules"
+      - writingDocumentation:
+        tag: "writingDocumentation"
       
 
 
