@@ -1,11 +1,11 @@
 ---
-title: "rossmoyne robotics club"
-description: "description of robotics club"
+title: "ev3wrap documentation"
+description: "description"
 nav_order: -1
 tag: "Hello!"
 ---
 
-# Welcome to the rossmoyne robotics club!
+# Welcome to the documentation site for Ev3Wrap!
 
 ---
 # Current plans:
